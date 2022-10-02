@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-GI#3 Gustavo Sepulveda: Medium</title>
+    <link href="./Medium.css" rel="stylesheet">
+</head>
+
+
+<body>
+
+    <header>
+        <h1>Javascript GI #2</h1>
+        <h2>Gustavo Sepulveda</h2>
+    </header>
+
+    <nav>
+        <ul class="nav-bar">
+            <li class="nav-item"><a href="../Easy/Easy.html">Easy</a></li>
+            <li class="nav-item"><a href="./Medium.html">Medium</a></li>
+            <li class="nav-item"><a href="../Hard/Hard.html">Hard</a></li>
+            <li class="nav-item"><a href="../Very-Hard/Very-Hard.html">Very Hard</a></li>
+        </ul>
+    </nav>
+
+    <br>
+
+<main>
+    <h3>Medium: Pizza Calculations</h3>
+
+    <div class="main-container">
+
+        
+        <h5> Welcome to Papa John's <br> What size pizza do you want to order?</h5>
+
+        <form class="radio">
+
+            <label for="Small">Small - 4 slices</label>
+            <input type="radio" id="radioSmall" name="pizzaSize" value="Small">
+    
+            <br>
+            <br>
+    
+            <label for="Medium">Medium - 8 slices</label>
+            <input type="radio" id="radioMedium" name="pizzaSize" value="Medium">
+    
+            <br>
+            <br>
+
+            <label for="Large">Large - 12 slices</label>
+            <input type="radio" id="radioLarge" name="pizzaSize" value="Large">
+
+        </form>
+
+        <br>
+
+        <button class="button" onclick="order()">Order</button>
+
+        <h4>ANSWER:</h4>
+        <div id="answer"></div>
+        <div id="sub-answer"></div>
+
+    </div>
+
+
+</main>
+
+
+
+<script src="./Medium.js"></script>
+</body>
+</html>

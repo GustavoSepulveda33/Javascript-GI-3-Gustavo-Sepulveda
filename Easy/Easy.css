@@ -1,0 +1,90 @@
+
+
+/* UNIVERSAL CSS UNIVERSAL CSS UNIVERSAL CSS UNIVERSAL CSS UNIVERSAL CSS UNIVERSAL CSS */
+
+body {
+    background-color: #EBCFB2;
+}
+
+header {
+    text-align: center;
+    padding: 2rem;
+}
+
+nav ul  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+    color: black;
+    padding: 2rem;
+    font-size: 2rem;
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+p {
+    font-size: 2rem;
+    text-align: center;
+    padding: 4rem;
+}
+
+h3 {
+    
+    text-align: center;
+    font-size: 2rem;
+}
+
+h4 {
+    color: blue;
+    font-size: 2rem;
+}
+
+.main-container {
+
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: 1rem;
+    padding: 2rem;
+
+}
+
+
+
+/* BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY BODY */
+
+.button {
+    width: 30vw;
+    padding: 1rem;
+}
+
+
+form {
+    font-size: 2rem;
+}
+
+.choose {
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+p {
+    padding: 1rem;
+}
+
+#answer { 
+    font-size: 2rem;
+    color: blue;
+}
+
+
+
